@@ -1,7 +1,5 @@
 # Echo - Impactful SEO Marketing Website Template  
 
-![Echo Preview](https://via.placeholder.com/800x400?text=Project+Screenshot)  
-
 **Echo** is an impactful SEO marketing website template that helps create a solid online presence. With its creative and minimal design, Echo ensures that your services are presented directly to potential clients, free from distractions. Whether you provide niche services or offer general solutions, Echo adapts with ease.  
 
 ---
