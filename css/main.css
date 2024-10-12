@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5) !important;
+    
+   
+}
+
+.h1, .h2, .h3, .h4, .h5{
+    font-family: "Montserrat", sans-serif;
+    color: #081158;
+    font-weight: 700;
+}
+  
+p{
+    font-size: 15px;
+}
+
+h5{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.buttons{
+    padding: 6px 20px;
+    background: #081158;
+    border: 1px solid #081158;
+    border-radius: 30px;
+}
+
+.navbutton{
+    color:#FBB244;
+    transition: 0.3s;
+}
+
+.navbutton:hover{
+    background-color: white;
+    color: #000 !important;  
+}   
+
+
+.subheading{
+    background-color: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+    padding: 5px 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.welcome-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+/* .welcome-section ::after{
+    position: absolute;
+    content: "";
+    right: -200px;
+    top: -200px;
+    background: url(../images/blob-1.svg) no-repeat;
+    background-size: cover;
+    width: 1113.97px;
+    height: 850.62px;
+    z-index: -1;
+} */
+
+.btnsize{
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.alterbutton{
+    transition: 0.3s;
+}
+
+.alterbutton:hover{
+    background-color: #081158 !important;;
+    color: white !important;;
+}
+
+.feature{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.feature .icons{
+    position: relative;
+}
+
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.highlight{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: -16px;
+    left: 168px;
+    background-color: rgba(251, 178, 68, 0.5);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.why-section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.why-section ul {
+    padding-left: 0; 
+    margin-left: 0;  
+  }
+
+
+  
+
+  .why-section ul .list-check {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex;
+    align-items: center;
+  }
+  
+  .why-section ul i {
+    margin-right: 8px; /* Add space between the icon and the text */
+  }
+
+
+.our-services{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}  
+  
+
+.our-services .service-card{
+    padding: 30px;
+    border: 1px solid #efefef;
+    margin-bottom: 30px;
+}
+
+
+.card-icon{
+    position: relative;
+}
+
+.card-icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.img-highlight{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -12px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(251, 178, 68, 0.5);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.testimonials-section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;   
+}
+
+.sliders{
+    padding: 40px 70px;
+    text-align: left !important;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.sliders:hover{
+    border-color: #081158;
+
+}
+
+.author-pic{
+    flex: 0 0 40px;
+    margin-right: 20px;
+}
+
+.author-pic img{
+    border-radius: 50%;
+}
+
+
+
+footer{
+    padding: 7rem 0;
+    font-size: 14px;
+    color: #888;
+}
+
+footer h5{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+footer .widget {
+    margin-bottom: 30px;
+}
+
+.widget ul{
+    padding-left: 0; 
+     
+}
+
+.widget ul li{
+    list-style-type: none; /* Remove default bullet points */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.widget ul li a{
+    text-decoration: none;
+    color: #888;
+}
+
+.social-icons{
+    padding: 8px 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #081158;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+
+.heart{
+    color: red;
+}
+
+
+.stats-section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+.faq{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.accordion-button.active {
+    background-color: #081158; /* Dark blue background color */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Bold text */
+}
+
+/* Styling for when the accordion button is collapsed (not expanded) */
+.accordion-button.collapsed {
+    background-color: #f8f9fa; /* Default Bootstrap light background color */
+    color: #000; /* Black text color */
+}
+
+/* Optional: Remove default box-shadow of accordion button */
+.accordion-button {
+    box-shadow: none;
+}
+
+
+
+
+
+
+@keyframes spinner-border {
+    to {
+      -webkit-transform: rotate(360deg) /* rtl:ignore */;
+      transform: rotate(360deg) /* rtl:ignore */; } }
+  
+.spinner-border {
+    color:#081158;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: 0.25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: 0.75s linear infinite spinner-border;
+    animation: 0.75s linear infinite spinner-border; 
+}
+  
+@keyframes spinner-grow {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0); }
+    50% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none; } 
+
+}
+
+.loader-page{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: +99999;
+}
